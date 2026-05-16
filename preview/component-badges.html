@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Components — Badges</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  .badge { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; }
+  .badge-mint { background: var(--mint-100); color: var(--mint-700); }
+  .badge-coral { background: var(--coral-100); color: var(--coral-700); }
+  .badge-amber { background: var(--amber-100); color: var(--amber-700); }
+  .badge-forest { background: var(--forest-100); color: var(--forest-700); }
+  .badge-iris { background: var(--iris-100); color: var(--iris-700); }
+  .badge-neutral { background: var(--ink-100); color: var(--ink-700); }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; font-size: 13px; background: var(--paper-0); box-shadow: inset 0 0 0 1px var(--ink-200); }
+  .chip-active { background: var(--forest-900); color: var(--paper-50); box-shadow: none; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="label" style="margin-bottom: 12px;">Badges</div>
+  <div style="display:flex; gap: 8px; flex-wrap: wrap;">
+    <span class="badge badge-mint">Cleared</span>
+    <span class="badge badge-amber">Pending</span>
+    <span class="badge badge-coral">Declined</span>
+    <span class="badge badge-forest">Savings</span>
+    <span class="badge badge-iris">AI · auto</span>
+    <span class="badge badge-neutral">Hidden</span>
+  </div>
+  <div class="label" style="margin-top: 18px; margin-bottom: 12px;">Filter chips</div>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <span class="chip chip-active">All</span>
+    <span class="chip">Food &amp; drink</span>
+    <span class="chip">Transport</span>
+    <span class="chip">Recurring</span>
+    <span class="chip">Income</span>
+  </div>
+</div>
+</body></html>

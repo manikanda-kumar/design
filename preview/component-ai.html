@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Components — AI surface</title>
+<link rel="stylesheet" href="_base.css">
+</head>
+<body>
+<div class="card" style="padding: 20px;">
+  <div class="label" style="margin-bottom: 12px;">AI moment · suggestion card</div>
+  <div style="background: linear-gradient(180deg, #F2F0FB 0%, #FFFFFF 100%); border: 1px solid var(--iris-100); border-radius: 18px; padding: 18px 20px; box-shadow: var(--shadow-2);">
+    <div style="display:flex; align-items:center; gap: 10px; margin-bottom: 10px;">
+      <div style="width: 28px; height: 28px; border-radius: 999px; background: var(--iris-100); color: var(--iris-700); display:flex; align-items:center; justify-content:center;">
+        <svg width="16" height="16" stroke="currentColor" stroke-width="2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" stroke="currentColor" stroke-linejoin="round" fill="none"/></svg>
+      </div>
+      <span class="ai-badge" style="font-family: var(--font-sans); font-size: 10px; padding: 2px 8px;">AI · auto-suggest</span>
+      <span style="font-size: 11px; color: var(--fg-tertiary); margin-left: auto;">based on last 3 months</span>
+    </div>
+    <div style="font-size: 16px; line-height: 1.5; color: var(--ink-900);">
+      Looks like you spent <span style="font-family: var(--font-mono); font-weight: 500;">~18% more</span> on groceries this month. Want a budget alert if it happens again?
+    </div>
+    <div style="display:flex; gap: 8px; margin-top: 14px;">
+      <button style="font: inherit; font-size: 13px; font-weight: 500; padding: 8px 14px; border-radius: 10px; border: none; background: var(--iris-500); color: white; cursor: pointer;">Set alert</button>
+      <button style="font: inherit; font-size: 13px; padding: 8px 14px; border-radius: 10px; border: none; background: transparent; color: var(--fg-secondary); cursor: pointer;">Dismiss</button>
+    </div>
+  </div>
+</div>
+</body></html>

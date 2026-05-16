@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Components — Tab bar</title>
+<link rel="stylesheet" href="_base.css">
+<style>
+  .tab { display:flex; flex-direction: column; align-items:center; gap: 3px; padding: 8px 0; flex: 1; color: var(--fg-tertiary); }
+  .tab.active { color: var(--forest-700); }
+  .tab.ai.active { color: var(--iris-700); }
+  .tab-label { font-size: 10px; font-weight: 500; letter-spacing: 0.02em; }
+</style>
+</head>
+<body>
+<div class="card" style="padding: 20px;">
+  <div class="label" style="margin-bottom: 14px;">Bottom tab bar (mobile)</div>
+  <div style="background: rgba(245, 242, 234, 0.75); backdrop-filter: blur(20px) saturate(140%); border-top: 1px solid var(--ink-200); padding: 6px 12px 18px; border-radius: 18px; box-shadow: var(--shadow-3); display:flex; max-width: 390px;">
+    <div class="tab active">
+      <svg width="22" height="22" stroke="currentColor" stroke-width="1.7" fill="none" viewBox="0 0 24 24"><path d="M3 12l9-9 9 9M5 10v10h14V10"/></svg>
+      <span class="tab-label">Home</span>
+    </div>
+    <div class="tab">
+      <svg width="22" height="22" stroke="currentColor" stroke-width="1.7" fill="none" viewBox="0 0 24 24"><path d="M3 7h13l-4-4M21 17H8l4 4"/></svg>
+      <span class="tab-label">Move</span>
+    </div>
+    <div class="tab">
+      <svg width="22" height="22" stroke="currentColor" stroke-width="1.7" fill="none" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 11h20"/></svg>
+      <span class="tab-label">Card</span>
+    </div>
+    <div class="tab ai">
+      <svg width="22" height="22" stroke="currentColor" stroke-width="1.7" fill="none" viewBox="0 0 24 24"><path d="M12 3l1.8 5.7L19.5 10l-5.7 1.3L12 17l-1.8-5.7L4.5 10l5.7-1.3z"/></svg>
+      <span class="tab-label">Ask</span>
+    </div>
+    <div class="tab">
+      <svg width="22" height="22" stroke="currentColor" stroke-width="1.7" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+      <span class="tab-label">You</span>
+    </div>
+  </div>
+</div>
+</body></html>

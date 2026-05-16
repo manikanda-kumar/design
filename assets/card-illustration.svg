@@ -1,0 +1,26 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" fill="none">
+  <defs>
+    <radialGradient id="sheen" cx="20%" cy="0%" r="120%">
+      <stop offset="0%" stop-color="#2F7C6A" stop-opacity="0.6"></stop>
+      <stop offset="60%" stop-color="#1B4A3C" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#0B1F18" stop-opacity="1"></stop>
+    </radialGradient>
+  </defs>
+  <rect width="380" height="240" rx="24" fill="url(#sheen)"></rect>
+  
+  <path d="M0 200 Q60 170 120 200 T240 200 T380 200" stroke="#2F7C6A" stroke-width="1" fill="none" opacity="0.6"></path>
+  <path d="M0 215 Q60 185 120 215 T240 215 T380 215" stroke="#2F7C6A" stroke-width="1" fill="none" opacity="0.4"></path>
+  
+  <text x="32" y="56" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="28" fill="#F5F2EA" letter-spacing="-0.02em">cove</text>
+  
+  <rect x="32" y="92" width="44" height="34" rx="6" fill="#D7CCB3" opacity="0.85"></rect>
+  <rect x="36" y="96" width="36" height="26" rx="4" fill="none" stroke="#1B4A3C" stroke-width="0.8" opacity="0.4"></rect>
+  
+  <text x="32" y="160" font-family="Geist Mono, monospace" font-size="16" fill="#F5F2EA" letter-spacing="0.15em" opacity="0.9">•••• •••• •••• 4218</text>
+  
+  <text x="32" y="208" font-family="Geist, sans-serif" font-size="9" fill="#F5F2EA" letter-spacing="0.15em" opacity="0.6">CARDHOLDER</text>
+  <text x="32" y="222" font-family="Geist, sans-serif" font-size="13" fill="#F5F2EA" letter-spacing="0.02em">Alex Morgan</text>
+  <text x="280" y="208" font-family="Geist, sans-serif" font-size="9" fill="#F5F2EA" letter-spacing="0.15em" opacity="0.6">EXPIRES</text>
+  <text x="280" y="222" font-family="Geist Mono, monospace" font-size="13" fill="#F5F2EA">07/29</text>
+</svg>
